@@ -196,7 +196,7 @@ const incrementedNumbers = numbers.map((numbers) => numbers + 1);
 console.log(incrementedNumbers); // 여기에 코드를 작성하세요. // 예상 결과: [2, 3, 4, 5, 6]
 
 const numbers1 = [1, 2, 3, 4, 5, 6];
-const evenNumbers = numbers1.filter((number) => (number % 2) - 1); // 여기에 코드를 작성하세요.
+const evenNumbers = numbers1.filter((number) => number % 2 == 0); // 여기에 코드를 작성하세요.
 console.log(evenNumbers); // 예상 결과: [2, 4, 6]
 
 const fruits = ["banana", "apple", "orange", "pineapple"];
